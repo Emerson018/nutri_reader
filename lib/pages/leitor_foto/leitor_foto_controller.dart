@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
 import 'leitor_foto_model.dart';
-import '../../api_keys.dart';
+import '../../API/api_keys.dart';
 
 // Chave da API (MANTENHA ISSO FORA DO CÓDIGO FONTE EM UMA APLICAÇÃO REAL!)
 // No ambiente de desenvolvimento, assumimos que a chave será injetada.

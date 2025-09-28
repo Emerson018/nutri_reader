@@ -34,9 +34,7 @@ migrate_working_dir/
 /build/
 
 #API keys
-lib/api_keys.dart
-api_keys.dart
-
+*/API/
 
 # Symbolication related
 app.*.symbols
