@@ -3,11 +3,12 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
-import 'leitor_foto_model.dart'; 
+import 'leitor_foto_model.dart';
+import '../../api_keys.dart';
 
 // Chave da API (MANTENHA ISSO FORA DO CÓDIGO FONTE EM UMA APLICAÇÃO REAL!)
 // No ambiente de desenvolvimento, assumimos que a chave será injetada.
-const String _apiKey = ''; 
+const String _apiKey = geminiApiKey; 
 const String _geminiUrl = 
     'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=$_apiKey';
 
